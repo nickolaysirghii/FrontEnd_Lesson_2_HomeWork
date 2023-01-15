@@ -1,0 +1,37 @@
+
+div{
+    margin: 40px;
+    
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+.blueRow{
+    background-color: blue;
+}
+.blue-1{
+    background-color: rgb(92, 92, 240);
+}
+.blue-2{
+    background-color: rgb(139, 139, 236);
+}
+.blue-3{
+    background-color: rgb(206, 206, 241);
+}
+.table3{
+    background-color: blanchedalmond;
+    border-collapse: collapse;
+    
+}
+.td3{
+    border-collapse: collapse;
+}
+
