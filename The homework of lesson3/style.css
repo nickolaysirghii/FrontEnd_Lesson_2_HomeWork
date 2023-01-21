@@ -1,37 +1,42 @@
 
-div{
-    margin: 40px;
-    
-}
 
 table{
     border-collapse: collapse;
+    border: 1px solid black;
 }
+#table1 th , #table1 td{
+    border: 1px solid black;
+}
+#table2 th, #table2 td{
+    border: 1px solid black;
+}
+    #table3 th, #table3 td{
+        border: 1px dashed black
 
-th{
-    border: 1px solid black;
 }
-td{
-    border: 1px solid black;
+div{
+    margin: 40px;
 }
-.blueRow{
+#table2 tr:nth-child(4n+1){
     background-color: blue;
 }
-.blue-1{
-    background-color: rgb(92, 92, 240);
+#table2 tr:nth-child(4n+2){
+    background-color: rgba(0, 0, 255, 0.682);
 }
-.blue-2{
-    background-color: rgb(139, 139, 236);
+#table2 tr:nth-child(4n+3){
+    background-color: rgba(0, 0, 255, 0.421);
 }
-.blue-3{
-    background-color: rgb(206, 206, 241);
+#table2 tr:nth-child(4n){
+    background-color: rgba(0, 0, 255, 0.257);
 }
-.table3{
-    background-color: blanchedalmond;
-    border-collapse: collapse;
+#table3 tr:first-child{
+    background-color: rgb(217, 217, 124);
+}
+#table3 tr{
+    height: 50px;
+    
     
 }
-.td3{
-    border-collapse: collapse;
+#table3{
+    width: 600px;
 }
-
